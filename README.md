@@ -1,4 +1,3 @@
-```markdown
 # Expense Tracker Web App
 
 ## Introduction
@@ -99,4 +98,3 @@ Here are some related projects that may interest you:
 ## Licensing
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```

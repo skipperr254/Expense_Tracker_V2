@@ -5,7 +5,7 @@ from .views import (
     UserCategoryListCreateView, UserCategoryRetrieveUpdateDestroyView,
     IncomeListCreateView, IncomeRetrieveUpdateDestroyView,
     ExpenseListCreateView, ExpenseRetrieveUpdateDestroyView,
-    DashboardView, BlacklistTokenView
+    DashboardView, BlacklistTokenView, UserProfileView
 )
 
 urlpatterns = [
@@ -23,5 +23,6 @@ urlpatterns = [
     path('expenses/', ExpenseListCreateView.as_view(), name='expense-list-create'),
     path('expenses/<int:pk>/', ExpenseRetrieveUpdateDestroyView.as_view(), name='expense-retrieve-update-destroy'),
     path('dashboard/', DashboardView.as_view(), name='dashboard'),
+    path('api/profile/', UserProfileView.as_view(), name='user-profile'),
 
 ]

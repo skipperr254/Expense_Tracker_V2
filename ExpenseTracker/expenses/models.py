@@ -26,8 +26,8 @@ class Expense(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)  # User associated with this expense record.
     category = models.ForeignKey(Category, on_delete=models.CASCADE)  # Category of the expense.
     amount = models.DecimalField(max_digits=10, decimal_places=2)  # Expense amount.
-    date = models.DateField()  # Date of the expense.
-    description = models.TextField()  # Description of the expense.
+    date = models.DateField(default=timezone.now)  # Date of the expense.
+    description = models.TextField(null=True)  # Description of the expense.
 
     def __str__(self):
         return self.name

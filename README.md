@@ -4,9 +4,9 @@
 
 The Expense Tracker Web App is a web-based application built with Django and Django Rest Framework (DRF) that allows users to manage their expenses, track income, and categorize their spending. This README provides an overview of the project, instructions for installation and usage, and other essential information.
 
-[!Demo: ](Expense Tracker Web App Demo)
-Author: Peter Kanini
-![Final Project Blog Article: Read the Blog Article](example.com)
+- **Demo**:[Expense Tracker Web App Demo]()
+- **Author**: Peter Kanini
+- **Final Project Blog Article**: [Read the Blog Article](example.com)
 
 Have you ever wondered where your hard-earned money goes each month? Do you want a simple yet powerful tool to track your expenses, manage your finances, and stay on top of your budget? If so, welcome to the Expense Tracker Web App!
 
@@ -16,6 +16,7 @@ Have you ever wondered where your hard-earned money goes each month? Do you want
 This project was born out of a personal need. Like many of you, I found myself struggling to keep track of my expenses and income, leading to financial stress and uncertainty. I envisioned a solution that would empower users to take control of their finances and make informed decisions about their money.
 
 ## Inspiration and Challenge
+![Inspiration](image-1.png)
 
 My inspiration for creating the Expense Tracker Web App came from a desire to simplify financial management for everyone. I set out to build a user-friendly, yet feature-rich application that provides users with a comprehensive view of their financial health. It was a journey marked by both excitement and challenges.
 
@@ -41,6 +42,7 @@ At the heart of the Expense Tracker Web App is a Django backend powered by Djang
 I chose Django and DRF because of their robustness, scalability, and extensive documentation. These technologies allowed me to focus on building features rather than reinventing the wheel.
 
 ### Database Design
+
 
 The database schema includes three main models:
 

@@ -90,5 +90,3 @@ Welcome to the Expense Tracker API documentation. This document provides an over
 - Use the appropriate HTTP methods (GET, POST, PUT, DELETE) for CRUD operations.
 - Include request data in JSON format in the request body, where necessary.
 - Review the API endpoints' specific documentation for more details.
-
-Feel free to reach out if you have any questions or need further assistance with integrating the API into the frontend of our application.

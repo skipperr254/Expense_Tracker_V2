@@ -1,5 +1,3 @@
-Certainly, here's the complete README.md content in a single markdown file:
-
 ```markdown
 # Expense Tracker Web App
 
